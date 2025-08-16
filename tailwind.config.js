@@ -8,6 +8,7 @@ module.exports = {
             colors: {
                 white:{
                     100: '#F0F0F0',
+                    200: '#FFF8FF'
                 },
                 yellow: {
                     100: '#F4C752',
@@ -30,7 +31,8 @@ module.exports = {
                 "poppins-extrabold": ["Poppins-ExtraBold", "sans-serif"],
                 "poppins-light": ["Poppins-Light", "sans-serif"],
                 "poppins-extralight": ["Poppins-ExtraLight", "sans-serif"],
-            }
+                "bubblegum": ["BubblegumSans-Regular", "sans-serif"],
+            },
         },
     },
     plugins: [],

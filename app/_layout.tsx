@@ -10,6 +10,7 @@ export default function RootLayout() {
         "Poppins-Medium": require("../assets/fonts/Poppins-Medium.ttf"),
         "Poppins-Light": require("../assets/fonts/Poppins-Light.ttf"),
         "Poppins-ExtraLight": require("../assets/fonts/Poppins-ExtraLight.ttf"),
+        "Bubblegum": require("../assets/fonts/BubblegumSans-Regular.ttf"),
     });
 
     useEffect(() => {
