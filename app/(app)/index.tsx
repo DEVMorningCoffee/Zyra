@@ -2,6 +2,7 @@ import "../global.css"
 import {Button, StatusBar, Text, TouchableOpacity, View, Image, StyleSheet, ImageBackground} from "react-native";
 import {SafeAreaView} from "react-native-safe-area-context"
 import logo from '../assets/images/logo/zyra_logo.png';
+import {Link} from "expo-router";
 
 export default function App() {
     return (
@@ -21,15 +22,17 @@ export default function App() {
                 </Text>
             </View>
             <View className="flex flex-row gap-4 px-5">
-                <TouchableOpacity className="flex-1 rounded-lg shadow-sm bg-yellow-100 py-5">
-                    <Text
-                        className="text-center font-poppins-medium text-black-100"
-                        numberOfLines={1}
-                        adjustsFontSizeToFit
-                    >
-                        Get started
-                    </Text>
-                </TouchableOpacity>
+                <Link href="/getting-started">
+                    <TouchableOpacity className="flex-1 rounded-lg shadow-sm bg-yellow-100 py-5">
+                        <Text
+                            className="text-center font-poppins-medium text-black-100"
+                            numberOfLines={1}
+                            adjustsFontSizeToFit
+                        >
+                            Get started
+                        </Text>
+                    </TouchableOpacity>
+                </Link>
                 <TouchableOpacity className="flex-1 rounded-lg shadow-sm bg-white-100 py-5">
                     <Text className="text-center font-poppins-medium text-black-100">
                         Sign in
